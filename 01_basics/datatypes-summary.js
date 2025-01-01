@@ -26,3 +26,25 @@ let  student={name:"Nitesh",couse:"JavaScript",age:25}
 const myfunction = function(){
     console.log("Hello World");
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename="niteshsingh"
+let anothername=myYoutubename
+anothername="niteshcreation"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="nitesh@google.com"
+
+console.log(userOne);
+console.log(userTwo);
