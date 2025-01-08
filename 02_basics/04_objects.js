@@ -52,4 +52,28 @@ users[1].email
 // console.log(Object.values(regularUser));
 // console.log(Object.keys(regularUser).length);
 
-console.log(Object.entries(tinderUsers));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isActive'));
+
+// destructuring objects
+
+const course={
+    coursename:'React',
+    price:1000,
+    courseInstuctor:'Nitesh'
+}
+// console.log(course.courseInstuctor);
+const {courseInstuctor:Instuctor}=course;
+console.log(Instuctor);
+
+// {
+//     "name":"Nitesh",
+//     "coursename":"React",
+//     "price":1000,
+// }
+
+[
+    {}
+    {}
+    {}
+]
