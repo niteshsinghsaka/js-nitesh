@@ -39,3 +39,12 @@ const addTwo=(a,b)=> ({username:"Nitesh",age:a+b});
 console.log(addTwo(2,3)); 
 
 
+const edu=() => {
+    console.log('I am a third function');
+};
+edu(); //I am a third function
+
+const world= (name)=>{
+    console.log(`my name is ${name}`);
+}
+world('nitesh'); //my name is nitesh
