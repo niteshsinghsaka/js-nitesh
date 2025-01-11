@@ -24,3 +24,6 @@ myMap.set('location', 'USA');
 //     console.log(key, value);
 // }
 
+for (const key in myMap) {
+   console.log(key);
+} // it will not work for maps.
